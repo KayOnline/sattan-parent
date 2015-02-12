@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.kay.zoo</groupId>
+	<groupId>org.kay.sattan</groupId>
 	<artifactId>sattan-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -12,12 +12,17 @@
 	<description>
 		The Sattan parent POM which has to be inherited by all Sattans modules
 	</description>
-	<url>https://github.com/Sattan/parent/</url>
+	<url>https://github.com/KayOnline/sattan-parent/</url>
 	<inceptionYear>2015</inceptionYear>
 
+	<!-- aggregator -->
+	<modules>
+		<module>../sattan-web</module>
+	</modules>
+
 	<organization>
-		<name>Sattan.org</name>
-		<url>https://github.com/Sattan/</url>
+		<name>KayOnline.org</name>
+		<url>https://github.com/KayOnline/</url>
 	</organization>
 
 	<licenses>
@@ -43,9 +48,9 @@
 	</developers>
 	
 	<scm>
-    	<url>https://github.com/Sattan/parent/</url>
-    	<connection>scm:git:ssh://github.com/Sattan/parent.git</connection>
-    	<developerConnection>scm:git:git+ssh://git@github.com/Sattan/parent.git</developerConnection>
+    	<url>https://github.com/KayOnline/sattan-parent/</url>
+    	<connection>scm:git:ssh://github.com/KayOnline/sattan-parent.git</connection>
+    	<developerConnection>scm:git:git+ssh://git@github.com/KayOnline/sattan-parent.git</developerConnection>
     	<tag>HEAD</tag>
   	</scm>
   	
@@ -89,11 +94,6 @@
 		</pluginRepository>
 	</pluginRepositories>
 	
-	<!-- aggregator -->
-	<modules>
-		<module>../zoo-sheep</module>
-	</modules>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>4.0.0.RELEASE</spring.version>

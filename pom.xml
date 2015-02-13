@@ -441,6 +441,18 @@
 				<artifactId>ormlite-jdbc</artifactId>
 				<version>4.48</version>
 			</dependency>
+			
+			<!-- Mybatis -->
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis</artifactId>
+				<version>3.2.8</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.mybatis</groupId>
+			    <artifactId>mybatis-spring</artifactId>
+			    <version>1.2.2</version>
+			</dependency>
 
 		</dependencies>
 	</dependencyManagement>
